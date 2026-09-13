@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html body{
+    height: 100%;
+    min-height: 100vh;
+    background-color: #ff69b4;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    direction: rtl;
+
+}
+.home {
+    height: auto;
+    background: rgb(235, 107, 149);
+    color: rgb(255, 251, 243);
+    overflow: hidden;
+}
+
+.contenar {
+    margin: 0 rem;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+nav ul a {
+    color: rgb(255, 252, 252);
+    padding: 2px;
+    background: transparent;
+    border-radius: 10px;
+    margin: 0 7px;
+    border: 1px solid rgb(255, 255, 255);
+    
+
+
+}
+
+a:hover {
+    transition: all .5s;
+    border-radius: 8px;
+    padding: 3px;
+    border: 2px solid black;
+    background: #ffffff55;
+}
+
+.home .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    margin: 40px 20px;
+}
+
+span {
+    color: rgba(32, 242, 207, 0.845);
+    font-size: 50px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home .content h1 {
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
+
+    color: rgba(32, 242, 207, 0.845);
+    line-height: 1.2;
+font-size: large;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 1.2;
+    
+}
+
+
+.home .content img {
+    width: 250px;
+    border-radius: 10px;
+    border: solid 1px wheat;
+    animation: animation1 1.5s ease-in;
+
+}
+
+#a {
+    color: #0162be;
+    font-size: 18px;
+    background: white;
+    border-radius: 8px;
+    margin-left: 90px;
+}
+
+.midye {
+    width: 100%;
+    height: 20%;
+    background: #111;
+    border-radius: 10px;
+}
+
+.midye ul li a {
+    color: whitesmoke;
+    margin: 0 0;
+    text-align: center;
+    align-items: center;
+    padding: 7px;
+
+}
+.midye ul li{
+         padding: 5px;
+}
+
+h4 {
+    color: rgb(243, 113, 157);
+    margin: 5px;
+}
+
+.contenar_date nav h2 {
+    margin-top: 50px;
+    font-size: bold x-large;
+
+}
+
+input {
+    cursor: pointer;
+    width: 100px;
+    padding: 3px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+input:hover {
+    cursor: pointer;
+    background: transparent;
+    border: solid wheat;
+}
+
+.dd {
+    margin: 50px;
+    border: solid white 2px;
+    padding: 5px 5px;
+    border-radius: 8px;
+
+}
+
+.dd p {
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 1.2;
+}
+
+.cc h3 {
+    padding: 5px 5px;
+}
+
+.viduo {
+     width: auto;
+    text-align: center;
+    align-items: center;
+    border: solid 3px;
+    margin: 0 10px;
+    background: #0162be;
+}
+
+.viduo video {
+      height: 300px;
+    width: 500px;
+    padding: 20px;
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 8px;
+    margin: 10px;
+  
+}
+
+.home #p {
+    text-align: center;
+    align-items: center;
+    ;
+}
+
+.home .veo {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    padding: 10px;
+}
+
+.home .veo table td,
+th {
+    border: solid white 1px;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 5px;
+}
+
+table {
+    border: solid white 2px;
+    border-radius: 8px;
+    padding: 5px;
+     width:70%;
+}
+
+.home .veo table tr th {
+    padding: 5px;
+    background: #f59f1d;
+}
+
+.home .veo .ls {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin: 8px;
+    border-left: solid white 2px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 300;
+    line-break: 5px;
+}
+
+.home .veo .ls #summary1 {
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 8px;
+    width: 300px;
+    padding: 5px;
+    background: #dca225;
+    height: 30px;
+}
+
+.home .veo .sl {
+    width: 180px;
+    margin: 8px;
+    border-left: solid white 2px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 300;
+    line-break: 5px;
+}
+
+.home .veo .sl #summary2 {
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 8px;
+    padding: 3px;
+    background: #dca225;
+    margin: 2px;
+    width: 180px;
+    height: 30px;
+}
+ .gg .dd .x img{
+    cursor: pointer;
+    height: 300px;
+    width: 380px;
+    margin: 8px 10px;
+}
+.gg .dd .x{
+    background: #0746c5;
+    display: flex;
+    justify-content: space-between;
+}
+.gg .dd .x #k{
+    cursor: pointer;
+    height: auto;
+    width: 380px;
+    margin: 8px 10px;
+}
+.m{
+    display: flex;
+    justify-content: space-between;
+}
+.gg{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.content_text {
+    margin: auto;
+    width: 80%;
+}
+
+@media (min-width: 1500px) {
+    .home {
+        max-width: 80px;
+        margin: 0 auto; /* بخلي المحتوى في نص الشاشة */
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width:750px) {
+   .home, nav, .content, #imh, .gg, .x, .veo{
+    flex-direction: column;
+    justify-content: center;
+    
+   }
+   table{
+    width: 100%;
+   }
+   .m{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   }
+   .dd img, #o{
+           justify-content: center;
+    width: 100%;
+    margin: auto;
+   }
+   .o{
+     width: 100%;
+     justify-content: center;
+     display: flex;
+   }
+   #imh,#i, #o { 
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+   }
+   .x video, #s, .dd, #i, #o {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+   }
+   .gg #imh{
+      width: 100%;
+    margin: auto;
+    justify-content: center;
+    justify-content: center;
+    width: 100vh;
+    align-items: center;
+    text-align: center;
+   }
+   nav ul li #dhd{
+            flex-direction: column;
+    justify-content: center;
+   }
+.content_text,.content{
+    width: 90%;
+
+}
+.home, .gg, .viduo {
+    align-items:center ;
+       flex-direction: column;
+    justify-content: center;
+    
+}
+
+nav {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow: visible;
+    display: flex;
+    justify-content: right;
+      flex-direction: column;
+    justify-content: center;
+    
+     
+}
+nav .logo{
+    margin:10px;
+    display: flex;
+    justify-content:center;
+}
+}
+@keyframes animation1 {
+    0% {
+        transform: translateY(500px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+#h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.x{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.x img{
+    width: 100%;
+    border-radius: 8px;
+    height: 300px;
+}
+#j{
+     width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#j video{
+      width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+footer .midye .contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+footer .midye .contact-icons a {
+    color: white;
+    text-decoration: none;
+    background: rgba(0,0,0,0.3);
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+footer .midye .contact-icons a:hover {
+    background: #25D366; /* لون الواتساب */
+    transform: scale(1.);
+}
+
+footer .midye .contact-icons i {
+    margin-left: 8px; /* مسافة بين الايقونة والكلام */
+}
+
+/* القائمة */
+.home .contenar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+   transition: 0.1s;
+}
+.home .contenar nav a:hover {
+    background: rgba(255,255,255,0.4);
+     
+}
+
+/* الفوتر */
+footer {
+    margin:auto ;
+    font-size: 0.9em;
+    opacity: 0.8;
+    
+}
+footer  p{
+    width: 100%;
+    border-radius: 9px;
+    padding: 8px;
+    background: #89efaf;
+    color: rgb(7, 5, 8);
+    align-items: center;
+    justify-content:center;
+}
